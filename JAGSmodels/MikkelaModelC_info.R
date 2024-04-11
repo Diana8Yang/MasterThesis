@@ -1,4 +1,4 @@
-##############dddd
+#### Mikkela et al.'s model with informed priors 
 
 model{
 # Prevalence model
