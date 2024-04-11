@@ -1,4 +1,4 @@
-##### BLA BLA 
+##### Mylius CPM
 data{
   for(i in 1:ntr){
   neg_log_t_bs[i] <- -log(t_bs[i])/log(10); # log10
@@ -31,10 +31,6 @@ model{
   
 }
 
-# par(mfcol=c(1,1))
-# testpert <- rpert(1000, 1, 4.5, 7)
-# testtrans <- 10^(-testpert)
-# hist(testtrans)
 # hist(testpert)
 # fitdist(testtrans, "beta")
 # test3 <- rbeta(1000, 0.253, 340.37)
