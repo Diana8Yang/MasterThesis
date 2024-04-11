@@ -1,4 +1,4 @@
-# Master's Thesis
+# Master's Thesis (2022)
 
 In my [master's thesis](https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=9100273&fileOId=9100277) at Lund University I examined the possibility of making a Quantitative Microbiological Risk Assessment (QMRA) of Campylobacter contamination in a Bayesian framework. The purpose of the work is to quantity uncertainty in parameters and model predictions using Bayesian calibration. 
 
