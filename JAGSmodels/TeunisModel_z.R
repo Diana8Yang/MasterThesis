@@ -1,3 +1,7 @@
+# Teunis, P. F., Marinovic, A. B., Tribble, D. R., Porter, C. K., and Swart, A. ´
+# Acute illness from campylobacter jejuni may require high doses while infection occurs at
+# low doses. Epidemics 24 (2018), 1–20.
+
 # JAGS code defining the multilevel dose response model.
 
 model{
