@@ -9,7 +9,7 @@ To quickly understand the structure of my code, especially the different JAGS mo
 
 1.	**Contamination of retail meat:** Prevalence and concentration model (prevalence model in short) which estimates the prevalence and concentration of Campylobacter in retail chicken meat. The model by [**Mikkela et al.**](https://onlinelibrary.wiley.com/doi/10.1111/risa.12572) is used as the prevalence model, The objective of the particular prevalence model was to estimate prevalence and concentration in retail meat using Bayesian methods while the data is censored and clustered. 
 
-    The model in OpenBUGS was published in the article. In my thesis, I converted the code into JAGS. 
+    The model in OpenBUGS was published in the article. In my thesis, I converted the model into JAGS. 
 
 2.	**From retail meat to human exposure:** consumer phase model, CPM, which describes the contamination of food during preparation and handling of raw chicken meat in kitchen. Here we adopted two out of the CPMs used in the study of [Nauta et al.](https://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.2010.01481.x): **Christensen CPM** and **Mylius CPM**. 
 
