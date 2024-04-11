@@ -1,4 +1,5 @@
 # Prevalence, Christensen CPM and dose-response (ill) model 
+
 data{
   for(i in 1:ntr){
     neg_log_t_bs[i] <- -log(t_bs[i])/log(10); # log10
