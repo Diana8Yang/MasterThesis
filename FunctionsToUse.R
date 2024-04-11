@@ -86,7 +86,6 @@ Recreate_Mikkela_article_Fig_4_and_5 <- function(Mikkela_coda){
   
   
 }
-# need to adjust
   
 # To double-check the parameters with the Teunis article
 # Run the Teunis model (altered code) in order to recreate the dose-response curve
@@ -1609,31 +1608,6 @@ dev.off()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-################# KLADD ######################
-
-
-# # Plot of the informed priors for comparison
-# {
-#   par(mfcol=c(2,4))
-#   plot(density(rnorm(1000, iprior.logitpb_1$estimate[1], iprior.logitpb_1$estimate[2])), main = "logitpb_1")
-#   plot(density(rlnorm(1000, iprior.taue$estimate[1], iprior.taue$estimate[2])), main = "taue")
-#   plot(density(rnorm(1000, iprior.e_1$estimate[1], iprior.e_1$estimate[2])), main = "e_1")
-#   plot(density(rbeta(1000, iprior.pw$estimate[1], iprior.pw$estimate[2])), main = "pw")
-#   plot(density(rgamma(1000, iprior.tauw$estimate[1], iprior.tauw$estimate[2])), main = "tauw")
-#   plot(density(rnorm(1000, iprior.mu_zero$estimate[1], iprior.mu_zero$estimate[2])), main ="mu_zero")
-#   plot(density(rgamma(1000, iprior.sdb$estimate[1], iprior.sdb$estimate[2])), main = "sdb_t")
-#   
 # }
 }
 
