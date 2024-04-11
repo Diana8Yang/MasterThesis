@@ -5,7 +5,7 @@ In my [master's thesis](https://lup.lub.lu.se/luur/download?func=downloadFile&re
 This is the code repository of my master’s thesis. 
 
 # JAGS models
-To quickly understand the structure of my code, especially the different JAGS models, a brief overview of the models used in this thesis is presented here. The linked model consists by three “submodels” covering three different stages: 
+To quickly understand the structure of my code, especially the different JAGS models, a brief overview of the models is presented here. The linked model consists by three “submodels” covering three different stages: 
 
 1.	**Contamination of retail meat:** Prevalence and concentration model (prevalence model in short) which estimates the prevalence and concentration of Campylobacter in retail chicken meat. The model by [**Mikkela et al.**](https://onlinelibrary.wiley.com/doi/10.1111/risa.12572) is used as the prevalence model, The objective of the particular prevalence model was to estimate prevalence and concentration in retail meat using Bayesian methods while the data is censored and clustered. 
 
