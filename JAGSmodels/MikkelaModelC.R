@@ -1,4 +1,5 @@
-
+# Mikkela, A., Ranta, J., Gonz ¨ alez, M., Hakkinen, M., and Tuominen, P. ´ Campylobacter qmra: A bayesian estimation of prevalence and concentration in retail foods under
+# clustering and heavy censoring. Risk Analysis 36, 11 (2016), 2065–2080.
 
 model{
   # Prevalence model
