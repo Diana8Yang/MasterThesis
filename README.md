@@ -2,7 +2,7 @@
 
 In my [master's thesis](https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=9100273&fileOId=9100277) at Lund University I examined the possibility of making a Quantitative Microbiological Risk Assessment (QMRA) of Campylobacter contamination in a Bayesian framework. The purpose of the work is to quantity uncertainty in parameters and model predictions using Bayesian calibration. 
 
-This is the code repository of my master’s thesis. 
+This is the code repository for my master’s thesis. 
 
 # JAGS models
 To quickly understand the structure of my code, especially the different JAGS models, a brief overview of the models is presented here. The linked model consists by three “submodels” covering three different stages: 
